@@ -19,4 +19,7 @@ hooks:
     - location: run.sh
       timeout: 120
       runas: ec2-user
-
+  ApplicationStop:
+    - location: stop.sh
+      timeout: 120
+      runas: ec2-user

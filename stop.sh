@@ -3,4 +3,3 @@
 source /home/ec2-user/.bash_profile
 cd ~/node
 pm2 stop www || true
-
